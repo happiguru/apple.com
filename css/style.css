@@ -215,10 +215,11 @@ input[type="text"] {
 .footer-links {
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
 }
 
 .img-container {
-  margin-left: -77px;
+  margin-left: -40px;
   cursor: pointer;
 }
 
@@ -238,7 +239,4 @@ input[type="text"] {
 .links-container a:hover,
 .footer-container a:hover {
   text-decoration: underline;
-}
-.footer-links ul {
-    list-style-type: none;
 }
