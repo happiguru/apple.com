@@ -19,7 +19,7 @@ body {
     background-image: url("../images/bg-img.jpg");
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position-y: bottom;
+    background-position: bottom;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -52,6 +52,7 @@ body {
     width: 100px ;
     margin: 0;
     text-align: center;
+
 }
 .form-item {
     width: 155px;
@@ -74,9 +75,33 @@ input[type="text"] {
     background-color: transparent;
 }
 
+.text-fields {
+    position: absolute;
+    top: -100px;
+}
+
 .image-container {
     display: flex;
     margin-top: 3px;
+}
+.img1, .img2, .img3, .img4 {
+    height: 200px;
+    width: 337px;
+}
+.img1 {
+    background-image: url("../images/promo_iphone5s.jpg");
+}
+
+.img2 {
+    background-image: url('../images/promo_iphone5c.jpg');
+}
+
+.img3 {
+    background-image: url('../images/promo_30_years.jpg');
+}
+
+.img4 {
+    background-image: url(../images/promo_supplier_responsibility.jpg);
 }
 
 .image-container img {
