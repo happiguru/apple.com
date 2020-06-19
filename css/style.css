@@ -52,12 +52,12 @@ body {
   color: #333;
   margin: 0;
   background-image: url("../images/bg-img.jpg");
-  background-color: transparent;
   background-repeat: no-repeat;
   background-position: 0% 162%;
 }
 
 .header-container {
+  background-color: transparent;
   width: 100%;
   display: flex;
   justify-content: center;
