@@ -17,7 +17,7 @@ This project was designed to fulfill the following concepts:
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Rocio01/PositioningandFloatingElements/c5da83cabcb421721b515b29c995d6b71be64d1f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/happiguru/apple.com/c06209f7c6482e81596da43635ef164b4eec23ee/index.html)
 
 [Github Repository Link](https://github.com/happiguru/apple.com/tree/apple.com-feature-branch)
 
@@ -45,12 +45,6 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Author1**
-
-- Github: [@Rocio01](https://github.com/Rocio01)
-- Twitter: [@rugiada8801](https://twitter.com/rugiada8801)
-- Linkedin: [zulma-martinez-5247a31a8](https://www.linkedin.com/in/zulma-martinez-5247a31a8/)
-
-👤 **Author2**
 
 - Github: [@happiguru](https://github.com/happiguru)
 - Twitter: [@Lekunze_Nle](https://twitter.com/Lekunze_Nley)
