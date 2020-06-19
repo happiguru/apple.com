@@ -51,13 +51,13 @@ body {
   background-color: #eee;
   color: #333;
   margin: 0;
-}
-
-.header-container {
   background-image: url("../images/bg-img.jpg");
   background-color: transparent;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: 0% 162%;
+}
+
+.header-container {
   width: 100%;
   display: flex;
   justify-content: center;
