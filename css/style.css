@@ -22,7 +22,6 @@ input,
 abbr,
 article,
 aside,
-command,
 details,
 figcaption,
 figure,
@@ -49,7 +48,7 @@ time {
 
 body {
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  background-color: #eeeeee;
+  background-color: #eee;
   color: #333;
   margin: 0;
 }
@@ -71,7 +70,7 @@ body {
   border-radius: 5px;
   margin: 0 auto;
   background-image: url("../images/nav-bg.png");
-  background-position: 50% 0px;
+  background-position: 50% 0;
   background-repeat: no-repeat;
   z-index: 9998;
   display: flex;
@@ -80,7 +79,7 @@ body {
 
 .logo {
   background-image: url("../images/logo.png");
-  background-position: 50% 0px;
+  background-position: 50% 0;
   background-repeat: no-repeat;
   margin: 3px auto;
   cursor: pointer;
@@ -152,6 +151,12 @@ input[type="text"] {
   height: 50px;
 }
 
+.links-container a,
+.footer-container a {
+  text-decoration: none;
+  color: #08c;
+}
+
 .text-fields a {
   text-decoration: none;
   color: #fff;
@@ -184,18 +189,22 @@ input[type="text"] {
 
 .img1 {
   background-image: url("../images/promo_iphone5s.jpg");
+  background-repeat: no-repeat;
 }
 
 .img2 {
   background-image: url("../images/promo_iphone5c.jpg");
+  background-repeat: no-repeat;
 }
 
 .img3 {
   background-image: url("../images/promo_30_years.jpg");
+  background-repeat: no-repeat;
 }
 
 .img4 {
   background-image: url(../images/promo_supplier_responsibility.jpg);
+  background-repeat: no-repeat;
 }
 
 .image-container img {
@@ -228,12 +237,6 @@ input[type="text"] {
   width: 75%;
   margin: 0 auto;
   font-size: 0.8em;
-}
-
-.links-container a,
-.footer-container a {
-  text-decoration: none;
-  color: #08c;
 }
 
 .links-container a:hover,
