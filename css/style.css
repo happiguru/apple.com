@@ -1,3 +1,7 @@
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time {
+    margin: 0;
+    padding: 0;
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,28 +9,46 @@
   }
 
 body {
-    background-image: url("images/bg-img.jpg");
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    background-color: #EEEEEE;
+    color: #333;
+    margin: 0;
 }
 
 .header-container {
+    background-image: url("../images/bg-img.jpg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
     width: 100%;
-    margin: 0;
     display: flex;
     justify-content: center;
-    padding: 20px 0;
-    background-image: url("images/nav-bg.png");
+    height: 550px;
 }
 
 .nav-container {
-    height: 40px;
+    height: 50px;
     width: 70%;
+    border-radius: 5px;
     margin: 0 auto;
-    
+    background-image: url("../images/nav-bg.png");
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+    z-index: 9998;
     display: flex;
-    border: 1px solid red;
+    margin-top: 7%;
+    
+}
+
+.logo {
+    background-image: url('../images/logo.png');
+    background-position: 50% 0px; 
+    background-repeat: no-repeat; 
+    margin: 3px auto;
+    cursor: pointer;
 }
 .nav-item {
-    padding: 7px;
+    padding: 8px;
     width: 100px ;
     margin: 0;
     text-align: center;
@@ -34,6 +56,7 @@ body {
 .form-item {
     width: 155px;
     padding: 0;
+    background-color: transparent;
 }
 
 .nav-item a {
@@ -48,4 +71,47 @@ input[type="text"] {
     border-radius: 15px;
     height: 25px;
     padding: 0;
+    background-color: transparent;
+}
+
+.image-container {
+    display: flex;
+    margin-top: 3px;
+}
+
+.image-container img {
+    width: 337px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    width: 75%;
+    margin: 0 auto;
+    height: 40px;
+    padding: 20px 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container {
+    margin-left: -77px;
+}
+
+.footer-container {
+    padding: 15px 20px;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+.links-container a, .footer-container a {
+    text-decoration: none;
+}
+
+.links-container a:hover, .footer-container a:hover {
+    text-decoration: underline;
 }
