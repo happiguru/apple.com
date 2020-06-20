@@ -1,45 +1,3 @@
-html,
-body,
-div,
-ul,
-ol,
-li,
-dl,
-dt,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-form,
-p,
-blockquote,
-fieldset,
-input,
-abbr,
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-mark,
-meter,
-nav,
-output,
-progress,
-section,
-summary,
-time {
-  margin: 0;
-  padding: 0;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -72,7 +30,6 @@ body {
   margin: 0 auto;
   background: rgb(128, 128, 128);
   background: linear-gradient(rgb(128, 128, 128) 48%, rgb(114, 112, 112) 50%);
-  
   display: flex;
   margin-top: 10%;
 }
