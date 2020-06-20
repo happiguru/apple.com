@@ -17,7 +17,7 @@ body {
 
 .header-container {
   background-color: transparent;
-  width: 100%;
+  width: 1300px;
   display: flex;
   justify-content: center;
   height: 550px;
@@ -25,7 +25,7 @@ body {
 
 .nav-container {
   height: 35px;
-  width: 70%;
+  width: 900px;
   border-radius: 5px;
   margin: 0 auto;
   background: rgb(128, 128, 128);
@@ -55,7 +55,7 @@ body {
 }
 
 #form-item {
-  width: 155px;
+  width: 20%;
   border: none;
   height: 34px;
   padding: 0;
@@ -69,15 +69,24 @@ body {
   font: normal normal normal 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
+.search-button {
+    position: absolute;
+    top: 140px;
+    margin-left: 25px;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 input[type="text"] {
-  width: 130px;
+  width: 80%;
   border-radius: 15px;
   height: 25px;
   padding: 0;
   background-color: transparent;
-  border-color: none;
   margin-top: 6px;
-  margin-left: 10px;
+  margin-left: 20px;
   padding-left: 25px;
   color: #fff;
 }
