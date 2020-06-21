@@ -12,27 +12,30 @@ body {
   background-image: url("../images/bg-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 180%;
-  width: 1349px;
+  background-position: 50% 168%;
+  width: 100%;
 }
 
 .header-container {
   background-color: transparent;
-  width: 1320px;
+  width: 100%;
   display: flex;
   justify-content: center;
-  height: 550px;
+  height: 513px;
+  
 }
 
 .nav-container {
+  position: relative;
+  top: 80px;
   height: 35px;
-  width: 900px;
-  border-radius: 5px;
-  margin: 0 auto;
+  width: 980px;
+  border-radius: 4px;
   background: rgb(128, 128, 128);
   background: linear-gradient(rgb(128, 128, 128) 48%, rgb(114, 112, 112) 50%);
   display: flex;
-  margin-top: 11%;
+  margin: 0 auto;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
 }
 
 .logo {
@@ -72,7 +75,7 @@ body {
 
 .search-button {
   position: absolute;
-  top: 155px;
+  top: 10px;
   margin-left: 26px;
   z-index: 1;
   background-color: transparent;
@@ -90,17 +93,6 @@ input[type="text"] {
   margin-left: 20px;
   padding-left: 25px;
   color: #fff;
-}
-
-.search-icon {
-  position: absolute;
-  top: 144px;
-  width: 17px;
-  right: 322px;
-  height: 17px;
-  background-image: url("../images/search.PNG");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .text-fields {
@@ -143,7 +135,7 @@ input[type="text"] {
 }
 
 .image-container {
-  margin-top: 30px;
+  margin-top: 2px;
   width: 100%;
 }
 
@@ -153,7 +145,6 @@ input[type="text"] {
 .img4 {
   height: 200px;
   width: 337px;
-  cursor: pointer;
   float: left;
   margin-top: 0;
 }
@@ -204,7 +195,6 @@ input[type="text"] {
 
 .img-container {
   margin-left: -40px;
-  cursor: pointer;
 }
 
 .footer-container {
