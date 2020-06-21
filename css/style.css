@@ -17,7 +17,6 @@ body {
   background-size: cover;
   background-clip: border-box;
   background-position: 50% 166%;
-  
 }
 
 .header-container {
@@ -38,7 +37,6 @@ body {
   background: linear-gradient(rgb(128, 128, 128) 48%, rgb(114, 112, 112) 50%);
   display: flex;
   margin: 0 auto;
-  box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
 }
 
 .logo {
@@ -108,10 +106,10 @@ input[type="text"] {
 
 .text-fields p, 
 .text-fields a {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
-.p-header,
+.p-header, 
 .p-text {
   text-align: center;
   width: 75%;
@@ -240,9 +238,3 @@ input[type="text"] {
 .footer-container a:hover {
   text-decoration: underline;
 }
-
-@media only screen and (max-width: 600px) {
-    .background {
-      background-position: 50% 450%;
-    }
-  }
