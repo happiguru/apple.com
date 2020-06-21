@@ -17,7 +17,7 @@ This project was designed to fulfill the following concepts:
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/happiguru/apple.com/c06209f7c6482e81596da43635ef164b4eec23ee/index.html)
+[Live Demo Link](https://rawcdn.githack.com/happiguru/apple.com/apple.com-feature-branch/index.html)
 
 [Github Repository Link](https://github.com/happiguru/apple.com/tree/apple.com-feature-branch)
 
