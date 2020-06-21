@@ -71,13 +71,13 @@ body {
 }
 
 .search-button {
-    position: absolute;
-    top: 155px;
-    margin-left: 26px;
-    z-index: 1;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+  position: absolute;
+  top: 155px;
+  margin-left: 26px;
+  z-index: 1;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 input[type="text"] {
