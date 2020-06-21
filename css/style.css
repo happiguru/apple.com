@@ -144,7 +144,7 @@ input[type="text"] {
 
 .image-container {
   margin-top: 30px;
-  width: 100%
+  width: 100%;
 }
 
 .img1,
@@ -155,7 +155,7 @@ input[type="text"] {
   width: 337px;
   cursor: pointer;
   float: left;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .img1 {
