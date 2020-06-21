@@ -1,240 +1,241 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #eee;
-  color: #333;
-  margin: 0;
-  width: 100%;
-}
-
-.background {
-  background-image: url("../images/bg-img.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-clip: border-box;
-  background-position: 50% 166%;
-}
-
-.header-container {
-  background-color: transparent;
-  width: 100%;
-  display: block;
-  justify-content: center;
-  height: 510px;
-}
-
-.nav-container {
-  position: relative;
-  top: 80px;
-  height: 35px;
-  width: 75%;
-  border-radius: 4px;
-  background: rgb(128, 128, 128);
-  background: linear-gradient(rgb(128, 128, 128) 48%, rgb(114, 112, 112) 50%);
-  display: flex;
-  margin: 0 auto;
-}
-
-.logo {
-  background-image: url("../images/logo.png");
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  margin: 3px auto;
-  cursor: pointer;
-}
-
-.nav-item {
-  padding: 6px;
-  width: 120px;
-  margin: 0;
-  text-align: center;
-  border-right: 1px solid rgb(80, 77, 77);
-}
-
-.nav-item:hover {
-  background-color: rgb(128, 128, 128);
-}
-
-#form-item {
-  width: 20%;
-  border: none;
-  height: 34px;
-  padding: 0;
-  background-color: transparent;
-}
-
-.nav-item a {
-  color: #fff;
-  text-decoration: none;
-  width: 100%;
-  font: normal normal normal 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-}
-
-.search-button {
-  position: absolute;
-  top: 10px;
-  margin-left: 26px;
-  z-index: 1;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-input[type="text"] {
-  width: 80%;
-  border-radius: 15px;
-  height: 25px;
-  padding: 0;
-  background-color: transparent;
-  margin-top: 6px;
-  margin-left: 20px;
-  padding-left: 25px;
-  color: #fff;
-}
-
-.text-fields {
-  position: relative;
-  display: block;
-  top: 150px;
-  width: 100%;
-  color: #fff;
-}
-
-.text-fields p, 
-.text-fields a {
-  margin: 0 auto;
-}
-
-.p-header, 
-.p-text {
-  text-align: center;
-  width: 75%;
-}
-
-.p-header {
-  font: 74px/18px Arial, Helvetica, sans-serif;
-  line-height: 1em;
-}
-
-.p-text {
-  font-size: 2.0em;
-  font-family: Arial, Helvetica, sans-serif;
-  position: relative; 
-  top: 30px;
-  line-height: 1.25em;
-}
-
-.text-fields a {
-  font-size: 1em;
-  position: relative; 
-  top: 50px;
-}
-
-.p-footer {
-  display: flex;
-  justify-content: center;
-  height: 50px;
-}
-
-.links-container a,
-.footer-container a {
-  text-decoration: none;
-  color: #08c;
-}
-
-.text-fields a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.text-fields a:hover {
-  text-decoration: underline;
-}
-
-.up {
-  margin-right: 20px;
-  padding-top: 8px;
-  font-size: 1.5em;
-}
-
-.image-container {
-  position: relative;
-  top: 2px;
-  width: 100%;
-  z-index: 1;
-}
-
-.img1,
-.img2,
-.img3,
-.img4 {
-  height: 200px;
-  width: 25%;
-  float: left;
-  margin-top: 0;
-}
-
-.img1 {
-  background-image: url("../images/promo_iphone5s.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.img2 {
-  background-image: url("../images/promo_iphone5c.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.img3 {
-  background-image: url("../images/promo_30_years.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.img4 {
-  background-image: url(../images/promo_supplier_responsibility.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.image-container img {
-  width: 337px;
-}
-
-.links-container {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.8em;
-  width: 80%;
-  margin: 0 auto;
-  height: 40px;
-  padding: 20px 20px;
-}
-
-.footer-links {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-}
-
-.img-container {
-  margin-left: 5px;
-}
-
-.footer-container {
-  padding: 15px 20px;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 0.8em;
-}
-
-.links-container a:hover,
-.footer-container a:hover {
-  text-decoration: underline;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #eee;
+    color: #333;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .background {
+    background-image: url("../images/bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position: 50% 166%;
+  }
+  
+  .header-container {
+    background-color: transparent;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    height: 510px;
+  }
+  
+  .nav-container {
+    position: relative;
+    top: 80px;
+    height: 35px;
+    width: 75%;
+    border-radius: 4px;
+    background: rgb(128, 128, 128);
+    background: linear-gradient(rgb(128, 128, 128) 48%, rgb(114, 112, 112) 50%);
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    background-image: url("../images/logo.png");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    margin: 3px auto;
+    cursor: pointer;
+  }
+  
+  .nav-item {
+    padding: 6px;
+    width: 120px;
+    margin: 0;
+    text-align: center;
+    border-right: 1px solid rgb(80, 77, 77);
+  }
+  
+  .nav-item:hover {
+    background-color: rgb(128, 128, 128);
+  }
+  
+  #form-item {
+    width: 20%;
+    border: none;
+    height: 34px;
+    padding: 0;
+    background-color: transparent;
+  }
+  
+  .nav-item a {
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    font: normal normal normal 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  }
+  
+  .search-button {
+    position: absolute;
+    top: 10px;
+    margin-left: 26px;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    border-radius: 15px;
+    height: 25px;
+    padding: 0;
+    background-color: transparent;
+    margin-top: 6px;
+    margin-left: 20px;
+    padding-left: 25px;
+    color: #fff;
+  }
+  
+  .text-fields {
+    position: relative;
+    display: block;
+    top: 150px;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .text-fields p,
+  .text-fields a {
+    margin: 0 auto;
+  }
+  
+  .p-header,
+  .p-text {
+    text-align: center;
+    width: 75%;
+  }
+  
+  .p-header {
+    font: 74px/18px Arial, Helvetica, sans-serif;
+    line-height: 1em;
+  }
+  
+  .p-text {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 30px;
+    line-height: 1.25em;
+  }
+  
+  .text-fields a {
+    font-size: 1em;
+    position: relative;
+    top: 50px;
+  }
+  
+  .p-footer {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  }
+  
+  .links-container a,
+  .footer-container a {
+    text-decoration: none;
+    color: #08c;
+  }
+  
+  .text-fields a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .text-fields a:hover {
+    text-decoration: underline;
+  }
+  
+  .up {
+    margin-right: 20px;
+    padding-top: 8px;
+    font-size: 1.5em;
+  }
+  
+  .image-container {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin-top: 0;
+  }
+  
+  .img1 {
+    background-image: url("../images/promo_iphone5s.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .img2 {
+    background-image: url("../images/promo_iphone5c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .img3 {
+    background-image: url("../images/promo_30_years.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .img4 {
+    background-image: url(../images/promo_supplier_responsibility.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .image-container img {
+    width: 337px;
+  }
+  
+  .links-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    padding: 20px 20px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  .img-container {
+    margin-left: 5px;
+  }
+  
+  .footer-container {
+    padding: 15px 20px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.8em;
+  }
+  
+  .links-container a:hover,
+  .footer-container a:hover {
+    text-decoration: underline;
+  }
+  
