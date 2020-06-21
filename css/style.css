@@ -12,12 +12,13 @@ body {
   background-image: url("../images/bg-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 180%;
+  background-position: 50% 180%;
+  width: 1349px;
 }
 
 .header-container {
   background-color: transparent;
-  width: 1300px;
+  width: 1320px;
   display: flex;
   justify-content: center;
   height: 550px;
@@ -31,7 +32,7 @@ body {
   background: rgb(128, 128, 128);
   background: linear-gradient(rgb(128, 128, 128) 48%, rgb(114, 112, 112) 50%);
   display: flex;
-  margin-top: 10%;
+  margin-top: 11%;
 }
 
 .logo {
@@ -71,8 +72,8 @@ body {
 
 .search-button {
     position: absolute;
-    top: 140px;
-    margin-left: 25px;
+    top: 155px;
+    margin-left: 26px;
     z-index: 1;
     background-color: transparent;
     border: none;
@@ -142,7 +143,8 @@ input[type="text"] {
 }
 
 .image-container {
-  margin-top: 0;
+  margin-top: 30px;
+  width: 100%
 }
 
 .img1,
@@ -153,7 +155,7 @@ input[type="text"] {
   width: 337px;
   cursor: pointer;
   float: left;
-  margin-top: 28px;
+  margin-top: 0px;
 }
 
 .img1 {
