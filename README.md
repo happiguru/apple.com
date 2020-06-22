@@ -7,7 +7,9 @@ Additional description about the project and its features.
 
 This project was designed to fulfill the following concepts:
 
-- CSS Background and Gradient
+- Float and Flexbox or Grid
+- To ensure background image covers the entire page
+- To ensure the use of CSS Background and Gradients
 
 
 ## Built With
@@ -23,9 +25,8 @@ This project was designed to fulfill the following concepts:
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+This project requires the use of web browser. It can be run both locally and on the web. 
+You can find a live demo [here](https://happiguru.github.io/apple.com/)
 
 
 To get a local copy up and running follow these simple example steps.
@@ -38,9 +39,6 @@ To get a local copy up and running follow these simple example steps.
 
 - Download or clone the repository's files
 - Open the index.html file using any web browser of your choice
-
-
-
 
 ## Authors
 
